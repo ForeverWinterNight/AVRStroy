@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АВРСтрой - Строительная компания</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <svg width="200" height="50" xmlns="http://www.w3.org/2000/svg" class="logo-svg">
+                <style>
+                    .logo-text {
+                        font-family: 'Exo 2', sans-serif;
+                        font-size: 28px;
+                        font-weight: 700;
+                        fill: #ffffff; /* Start with white */
+                        letter-spacing: 1px;
+                        text-anchor: middle;
+                        transition: fill 0.3s ease;
+                    }
+                    .bracket {
+                        stroke: #ffa500;
+                        stroke-width: 2.5;
+                        fill: none;
+                        transition: stroke-dashoffset 0.8s ease-in-out;
+                    }
+                </style>
+                <!-- Brackets -->
+                <path class="bracket" d="M20 2 L2 2 L2 20" stroke-dasharray="38" stroke-dashoffset="38"/>
+                <path class="bracket" d="M180 2 L198 2 L198 20" stroke-dasharray="38" stroke-dashoffset="38"/>
+                <path class="bracket" d="M20 48 L2 48 L2 30" stroke-dasharray="38" stroke-dashoffset="38"/>
+                <path class="bracket" d="M180 48 L198 48 L198 30" stroke-dasharray="38" stroke-dashoffset="38"/>
+                <!-- Text -->
+                <text class="logo-text" x="100" y="35">АВРСТРОЙ</text>
+            </svg>
+        </div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <div class="side-panel">
+        <div class="close-btn">&times;</div>
+        <nav class="side-nav">
+            <ul>
+                <li><a href="tel:88001013421" class="side-panel-link">8(800)101-34-21</a></li>
+                <li><button class="cta-button side-panel-button">Заказать звонок</button></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title-line">Выбирая нашу компанию,</span>
+                    <span class="hero-title-line">вы выбираете</span>
+                    <span class="hero-title-line-highlight">надежного партнера</span>
+                    <span class="hero-title-line and-separator">и</span>
+                    <span class="hero-title-line-highlight">гарантированный результат</span>
+                </h1>
+                <p>ООО «АВРСтрой» работает в сфере строительства с 2023 года. За это время мы собрали команду первоклассных специалистов, создали обширную материально-техническую базу и накопили большой опыт.</p>
+            </div>
+        </section>
+
+        <div class="section-divider">
+            <svg class="line-drawing" width="100%" height="50px" viewBox="0 0 2000 50" preserveAspectRatio="none">
+                <path d="M0,25 Q500,50 1000,25 T2000,25" stroke="#ff6600" stroke-width="2" fill="none"/>
+            </svg>
+        </div>
+
+        <section class="advantages">
+            <div class="container">
+                <div class="section-frame">
+                    <span class="corner top-left"></span><span class="corner top-right"></span><span class="corner bottom-left"></span><span class="corner bottom-right"></span>
+                    <h2>Наши преимущества</h2>
+                    <div class="advantages-timeline">
+                        <div class="timeline-item">
+                            <div class="advantage-card">
+                                <div class="icon-placeholder"></div>
+                                <h3>Опытные сотрудники</h3>
+                                <p>Все работы выполняются профессионалами с большим опытом работы в своей специальности.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="advantage-card">
+                                <div class="icon-placeholder"></div>
+                                <h3>Качественные материалы</h3>
+                                <p>Используются только высококачественные, долговечные материалы ведущих производителей.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="advantage-card">
+                                <div class="icon-placeholder"></div>
+                                <h3>Собственное оборудование</h3>
+                                <p>Наша компания имеет собственный парк специализированной техники.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="advantage-card">
+                                <div class="icon-placeholder"></div>
+                                <h3>Контроль качества</h3>
+                                <p>Мы следим за качеством выполненных работ на каждом этапе строительства.</p>
+                            </div>
+                        </div>
+                         <div class="timeline-item">
+                            <div class="advantage-card">
+                                <div class="icon-placeholder"></div>
+                                <h3>Официальная уверенность</h3>
+                                <p>Все строительные работы сопровождаются заключением официального договора.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider">
+            <svg class="line-drawing" width="100%" height="50px" viewBox="0 0 2000 50" preserveAspectRatio="none"><path d="M0,25 Q500,0 1000,25 T2000,25" stroke="#ff6600" stroke-width="2" fill="none"/></svg>
+        </div>
+
+        <section class="projects">
+            <div class="container">
+                <div class="section-frame">
+                    <span class="corner top-left"></span><span class="corner top-right"></span><span class="corner bottom-left"></span><span class="corner bottom-right"></span>
+                    <h2>Выполненные проекты</h2>
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span>FILE: #PRJ-001</span>
+                            <span>STATUS: COMPLETED</span>
+                        </div>
+                        <h3>Комплексная жилая застройка, г. Хабаровск</h3>
+                        <p>«Комплексная жилая застройка с объектами социальной и инженерной инфраструктуры по адресу: г. Хабаровск, пер. Брянский, д. 3». Первая очередь строительства. Корпус 1: Секция 1, Пристроенные помещения БКФН, Секция 2, Секция 3; Корпус 2, Корпус 3». Корпус 2. Третья очередь строительства. Корпус 7: Секция 1, Секция 2, Секция 3. (2023г. - 2025г.).</p>
+                        <p><strong>Заказчик:</strong> АО «ТЗ-Регион».</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider">
+            <svg class="line-drawing" width="100%" height="50px" viewBox="0 0 2000 50" preserveAspectRatio="none"><path d="M0,25 Q500,50 1000,25 T2000,25" stroke="#ff6600" stroke-width="2" fill="none"/></svg>
+        </div>
+
+        <section class="equipment">
+            <div class="container">
+                <div class="section-frame">
+                    <span class="corner top-left"></span><span class="corner top-right"></span><span class="corner bottom-left"></span><span class="corner bottom-right"></span>
+                    <h2>Техническое оснащение и персонал</h2>
+                    <div class="equipment-grid">
+                        <div class="equipment-list">
+                            <h3>Специальная строительная техника</h3>
+                            <ul>
+                                <li>Экскаватор Hitachi ZX 240, ковш 1,5 куб.м.</li>
+                                <li>Экскаватор Hitachi ZX 340, ковш 2,0 куб.м. + гидромолот</li>
+                                <li>Кран-балка Mitsubishi Fuso, 5 тн.</li>
+                                <li>Кран KOBELKO, 25 тн.</li>
+                                <li>3 Самосвала FAW, 20 тн.</li>
+                                <li>3 Самосвала HINO, 15 куб.м.</li>
+                                <li>Каток 5 тн.</li>
+                                <li>Бульдозер Komatsu, 25 тн.</li>
+                                <li>2 Башенных крана QTZ 100, 8 тн.</li>
+                                <li>1 Автобетононасос SCANIA Р 450 8х4, 59м.</li>
+                                <li>4 Прорабские</li>
+                                <li>15 Бытовок жилых</li>
+                            </ul>
+                        </div>
+                        <div class="personnel-info">
+                            <h3>Персонал</h3>
+                            <p>Коллектив опытных, высококвалифицированных профессионалов - важное конкурентное преимущество ООО «АВРСтрой»</p>
+                            <ul>
+                                <li>15 человек - Инженерно-Технического персонала</li>
+                                <li>60 человек - Бетонщики</li>
+                                <li>15 человек - Каменщики</li>
+                                <li>5 человек - Разнорабочие</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider">
+            <svg class="line-drawing" width="100%" height="50px" viewBox="0 0 2000 50" preserveAspectRatio="none"><path d="M0,25 Q500,0 1000,25 T2000,25" stroke="#ff6600" stroke-width="2" fill="none"/></svg>
+        </div>
+
+        <section class="cta">
+             <div class="container">
+                  <div class="section-frame">
+                    <span class="corner top-left"></span><span class="corner top-right"></span><span class="corner bottom-left"></span><span class="corner bottom-right"></span>
+                    <h2>Почему наши клиенты выбирают нас?</h2>
+                     <div class="values-grid">
+                        <div class="value-item"><div class="value-item-content">Профессионализм и самосовершенствование</div></div>
+                        <div class="value-item"><div class="value-item-content">Инновации и качество</div></div>
+                        <div class="value-item"><div class="value-item-content">Безопасность и надежность выполняемых-работ</div></div>
+                        <div class="value-item"><div class="value-item-content">Честность и добросовестность в работе</div></div>
+                        <div class="value-item"><div class="value-item-content">Уважение и доверие к заказчику</div></div>
+                        <div class="value-item"><div class="value-item-content">Преданность делу и команде</div></div>
+                     </div>
+                 </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-blueprint">
+                <div class="bp-col bp-title">
+                    <p><strong>Компания:</strong> ООО "АВРСтрой"</p>
+                </div>
+                <div class="bp-col bp-contacts">
+                    <p><strong>Адрес:</strong> 680000, г. Хабаровск, ул. Петра Комарова, д. 3ф</p>
+                    <p><strong>Email:</strong> avrstroy27@mail.ru</p>
+                    <p><strong>Тел:</strong> 8(800)101-34-21</p>
+                </div>
+                <div class="bp-col bp-details">
+                    <p><strong>ИНН:</strong> 270013489</p>
+                    <p><strong>ОГРН:</strong> 1232700010289</p>
+                    <p><strong>ОКВЭД:</strong> 41.20</p>
+                </div>
+                 <div class="bp-col bp-bank">
+                    <p><strong>Банк:</strong> ФИЛИАЛ "ХАБАРОВСКИЙ" АО "АЛЬФА-БАНК"</p>
+                    <p><strong>Р/С:</strong> 40702810620070004052</p>
+                    <p><strong>БИК:</strong> 040813770</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 ООО "АВРСтрой". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
