@@ -722,6 +722,19 @@ footer {
         gap: 20px;
         max-width: none; /* Allow grid to fill the screen width */
     }
+
+    .main-header {
+        padding: 15px 20px;
+    }
+
+    .logo-svg {
+        width: 150px;
+        height: 40px;
+    }
+
+    .logo-text {
+        font-size: 22px;
+    }
 }
 
 .close-btn {
