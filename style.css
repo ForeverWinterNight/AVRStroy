@@ -91,10 +91,11 @@ header {
     border: none;
     cursor: pointer;
 }
-.side-panel nav button {
+.side-panel nav .side-panel-button {
     background-color: #ff6600;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
+    display: inline-block;
 }
 
 /* Menu Toggle Button */
